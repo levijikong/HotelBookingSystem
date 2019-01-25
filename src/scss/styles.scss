@@ -1,5 +1,12 @@
 $bg-color: red;
+$header-bg-imgPath: url("../assets/header-img.jpg");
 
 body {
     background: $bg-color;
 }
+
+.main-header{
+    background:$header-bg-imgPath;
+  width: 100%;
+  height: 900px;
+  }

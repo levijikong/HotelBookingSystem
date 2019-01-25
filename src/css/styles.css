@@ -1,2 +1,7 @@
 body {
   background: red; }
+
+.main-header {
+  background: url("../assets/header-img.jpg");
+  width: 100%;
+  height: 900px; }
