@@ -5,6 +5,9 @@ body {
     background: $bg-color;
 }
 
+.container {
+	max-width: 1200px;
+}
 .main-header{
     background:$header-bg-imgPath;
   width: 100%;
@@ -14,6 +17,23 @@ body {
 
   .bg-light{
       background-color:transparent !important;
+  }
+
+
+  //date picker section
+/* .trying{
+  line-height:normal;
+  display: inline-block;
+  vertical-align:bottom;
+  border: 1px solid red;
+} */
+
+.trying{
+  background:rgb(216, 111, 13);
+  
+}
+  input, button, select, optgroup, textarea {
+       height: 38px;
   }
 
 //testimonials

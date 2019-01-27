@@ -1,6 +1,9 @@
 body {
   background: #d6d2d2; }
 
+.container {
+  max-width: 1200px; }
+
 .main-header {
   background: url("../assets/header-img.jpg");
   width: 100%;
@@ -8,6 +11,18 @@ body {
 
 .bg-light {
   background-color: transparent !important; }
+
+/* .trying{
+  line-height:normal;
+  display: inline-block;
+  vertical-align:bottom;
+  border: 1px solid red;
+} */
+.trying {
+  background: #d86f0d; }
+
+input, button, select, optgroup, textarea {
+  height: 38px; }
 
 .testimonial {
   background: #FF5722;
