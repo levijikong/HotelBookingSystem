@@ -10,7 +10,11 @@
     <link rel="stylesheet" href="/fontawesome/css/all.css">
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/bootstrap-datepicker.min.css">
     <script src="main.js"></script>
+
+
+
 </head>
 <body>
 
@@ -64,7 +68,7 @@
 
           <!--date picker section-->
           <div class="row trying pt-2 pb-2">
-            <div class="col-md-3">
+            <div class="col-md-2">
                        <div class="form-group">
                                 <select>
                                         <option value="volvo">Select Hotel Type</option>
@@ -77,9 +81,12 @@
 
             </div>
 
-
-            <div class='col-md-3'>
+<div class="col-md-2">
+        <label for="startDate">Check in</label>
+</div>
+            <div class='col-md-2'>
                 <div class="form-group">
+                       
                     <div class='input-group date' id='datetimepicker6'>
                         <input type='text' class="form-control" />
                         <span class="input-group-addon">
@@ -89,7 +96,13 @@
                 </div>
             </div>
 
-            <div class='col-md-3'>
+
+            
+<div class="col-md-2">
+        <label >check iout</label>
+</div>
+            <div class='col-md-2'>
+                
                 <div class="form-group">
                     <div class='input-group date' id='datetimepicker7'>
                         <input type='text' class="form-control" />
@@ -100,8 +113,8 @@
                 </div>
             </div>
 
-            <div class="col-md-3">
-                    <button type="button" class="btn btn-outline-primary">Primary</button>
+            <div class="col-md-2">
+                    <button type="button" class="btn btn-outline-primary">Check Availability</button>
                 </div>
         </div><!--end of date picker-->
     </div>
@@ -200,7 +213,7 @@
 <footer>
      
 </footer>
-
+<script src="/js/bootstrap-datepicker.min.js"></script>
     <script src="/js/jquery.min.js"></script>
     <script src="/js/popper.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
