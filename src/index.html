@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,211 +12,241 @@
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="/css/glyphicon.css">
     <script src="main.js"></script>
 
 
 
 </head>
+
 <body>
 
     <header class="main-header">
-<div class="container">
-         <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-              
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
-                  </li>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
 
 
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Hotels
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Gutenburg Hotel</a>
-                    <a class="dropdown-item" href="#">Savana Hotel</a>
-                    <a class="dropdown-item" href="#">North Beach Hotel</a>
-                   </li>
-          
-              </ul>
-              <ul class="nav navbar-nav navbar-right">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
-                  </li>
-            </ul> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Login</a>
+                        </li>
 
 
-            </div>
-          </nav> 
-         
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Hotels
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Gutenburg Hotel</a>
+                                <a class="dropdown-item" href="#">Savana Hotel</a>
+                                <a class="dropdown-item" href="#">North Beach Hotel</a>
+                        </li>
 
-          <!--date picker section-->
-          <div class="row trying pt-2 pb-2">
-            <div class="col-md-2">
-                       <div class="form-group">
-                                <select>
-                                        <option value="volvo">Select Hotel Type</option>
-                                        <option value="Gutenburg">Gutenburg Hotel</option>
-                                        <option value="Savana">Savanna Hotel</option>
-                                        <option value="North">North Beach Hotel</option>
-                                      </select>
-                            </div>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Login</a>
+                        </li>
+                    </ul>
 
 
-            </div>
+                </div>
+            </nav>
 
-<div class="col-md-2">
-        <label for="startDate">Check in</label>
-</div>
-            <div class='col-md-2'>
-                <div class="form-group">
-                       
-                    <div class='input-group date' id='datetimepicker6'>
-                        <input type='text' class="form-control" />
-                        <span class="input-group-addon">
-                            <span class="glyphicon glyphicon-calendar"></span>
-                        </span>
+
+            <!--date picker section-->
+            <div class="row trying pt-2 pb-2">
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <select>
+                            <option value="volvo">Select Hotel Type</option>
+                            <option value="Gutenburg">Gutenburg Hotel</option>
+                            <option value="Savana">Savanna Hotel</option>
+                            <option value="North">North Beach Hotel</option>
+                        </select>
                     </div>
                 </div>
-            </div>
 
+                <div class="col-md-2">
+                    <label for="startDate">Check in</label>
+                </div>
+                <div class='col-md-2'>
+                    <div class="form-group">
 
-            
-<div class="col-md-2">
-        <label >check iout</label>
-</div>
-            <div class='col-md-2'>
-                
-                <div class="form-group">
-                    <div class='input-group date' id='datetimepicker7'>
-                        <input type='text' class="form-control" />
-                        <span class="input-group-addon">
-                            <span class="glyphicon glyphicon-calendar"></span>
-                        </span>
+                        <div class='input-group date' id='datetimepicker6'>
+                            <input type='text' class="form-control" />
+                            
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                        </div>
                     </div>
                 </div>
-            </div>
+               
 
-            <div class="col-md-2">
+
+                <div class="col-md-2">
+                    <label>check iout</label>
+                </div>
+                <div class='col-md-2'>
+
+                    <div class="form-group">
+                        <div class='input-group date' id='datetimepicker7'>
+                            <input type='text' class="form-control" />
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
                     <button type="button" class="btn btn-outline-primary">Check Availability</button>
                 </div>
-        </div><!--end of date picker-->
-    </div>
+            </div>
+            
+        </div>
     </header>
 
 
-<main>
 
-    <div class="container mt-4">
-      <div class="row">
+    <main>
+        <div class="container mt-4">
+            <div class="row">
                 <div class="col-6">
                     <div class="card">
-                       <img src="../assets/hotel11.jpg" class="card-img-top" alt="...">
+                        <img src="../assets/hotel11.jpg" class="card-img-top" alt="...">
                         <h3 class="card-title">Gutenburg Hotel</h3>
                         <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-6">
-                        <div class="card">
-                           <img src="../assets/hotel2.jpg" class="card-img-top" alt="...">
-                            <h3 class="card-title">Savanna Hotel</h3>
-                            <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
+                    <div class="card">
+                        <img src="../assets/hotel2.jpg" class="card-img-top" alt="...">
+                        <h3 class="card-title">Savanna Hotel</h3>
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
-
-                    <div class="col-12">
-                            <div class="card mt-4">
-                               <img src="../assets/hotel1.jpg" class="card-img-top" alt="...">
-                                <h3 class="card-title">North Beach Hotel</h3>
-                                <div class="card-body">
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                </div>
-                            </div>
-                        </div>
-
-
                 </div>
-    </div><!--end of container-->
 
-   
+                <div class="col-12">
+                    <div class="card mt-4">
+                        <img src="../assets/hotel1.jpg" class="card-img-top" alt="...">
+                        <h3 class="card-title">North Beach Hotel</h3>
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
 
-</main>
+
+            </div>
+        </div>
+   </main>
+
 
     <div class="testimonial">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-title text-center">
-                            <h2>Happy Customer Says...</h2>
-                        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center">
+                        <h2>Happy Customer Says...</h2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="testimony">
-                            <blockquote>
-                                &ldquo;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. &rdquo;
-                            </blockquote>
-                            <p class="author"><cite>Ben Dickson</cite></p>
-                        </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimony">
+                        <blockquote>
+                            &ldquo;It is a long established fact that a reader will be distracted by the readable
+                            content of a page when looking at its layout. &rdquo;
+                        </blockquote>
+                        <p class="author"><cite>Ben Dickson</cite></p>
                     </div>
-                    <div class="col-md-4">
-                        <div class="testimony">
-                            <blockquote>
-                                &ldquo;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.&rdquo;
-                            </blockquote>
-                            <p class="author"><cite>Peter Wilson</cite></p>
-                        </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimony">
+                        <blockquote>
+                            &ldquo;It is a long established fact that a reader will be distracted by the readable
+                            content of a page when looking at its layout.&rdquo;
+                        </blockquote>
+                        <p class="author"><cite>Peter Wilson</cite></p>
                     </div>
-                    <div class="col-md-4">
-                        <div class="testimony">
-                            <blockquote>
-                                &ldquo;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.&rdquo;
-                            </blockquote>
-                            <p class="author"><cite>jean Paul</cite></p>
-                        </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimony">
+                        <blockquote>
+                            &ldquo;It is a long established fact that a reader will be distracted by the readable
+                            content of a page when looking at its layout.&rdquo;
+                        </blockquote>
+                        <p class="author"><cite>jean Paul</cite></p>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
 
-
-
-<footer>
-     
-</footer>
-<script src="/js/bootstrap-datepicker.min.js"></script>
+    
+    <section>
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                One of three columns
+              </div>
+              <div class="col">
+                two of three columns
+              </div>
+              <div class="col">
+                three of three columns
+              </div>
+            </div>
+          </div>
+    </section>
+    <footer>
+       
+      
+    </footer>
+    <script src="/js/bootstrap-datepicker.min.js"></script>
     <script src="/js/jquery.min.js"></script>
     <script src="/js/popper.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
 </body>
+
 </html>

@@ -26,7 +26,7 @@ input, button, select, optgroup, textarea {
 
 .testimonial {
   background: #FF5722;
-  float: left;
+  /*float: left;*/
   width: 100%;
   color: #52565b; }
 
