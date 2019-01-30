@@ -9,6 +9,10 @@ body {
   width: 100%;
   height: 900px; }
 
+.nav-item a {
+  font-size: 25px;
+  font-weight: bold; }
+
 .bg-light {
   background-color: transparent !important; }
 
@@ -19,16 +23,37 @@ body {
   border: 1px solid red;
 } */
 .trying {
-  background: #ffbb99; }
+  background: #ffbb99;
+  position: absolute;
+  bottom: -145px;
+  width: 77%;
+  border-radius: 10px;
+  margin-left: 3px;
+  padding: 20px; }
+
+.col-md-2 input {
+  border-radius: 5px; }
+
+.trying label {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 65px; }
+
+.col-md-2 button, .item3 button {
+  background: #520529;
+  color: #fff;
+  border-radius: 15px; }
 
 input, button, select, optgroup, textarea {
-  height: 38px; }
+  height: 38px;
+  border-radius: 5px; }
 
 .testimonial {
   background: #FF5722;
   /*float: left;*/
   width: 100%;
-  color: #52565b; }
+  color: #52565b;
+  padding: 50px; }
 
 .testimonial .section-title h2 {
   color: #f8e69f;
@@ -63,3 +88,27 @@ input, button, select, optgroup, textarea {
   margin-bottom: 0;
   margin-left: 10px;
   color: #f8e69f; }
+
+.mainfooter {
+  background-color: #f0dfe8;
+  font-size: 100;
+  padding: 10px; }
+
+.mainfooter a {
+  text-decoration: none;
+  font-style: 1.1rem;
+  padding-top: 10px;
+  color: black; }
+
+.item li {
+  list-style: none; }
+
+.item li :hover, .item2 :hover, .item3 button :hover {
+  color: aqua; }
+
+.item h4 {
+  font-size: 200; }
+
+.item3 input {
+  background: #FF5722;
+  border-radius: 15px; }
