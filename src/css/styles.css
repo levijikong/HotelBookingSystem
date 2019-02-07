@@ -154,7 +154,8 @@ body {
 .register {
   height: 900px;
   width: 100%;
-  display: inline; }
+  display: inline;
+  background: #ffffff; }
 
 .form-inline {
   display: inline-block; }
