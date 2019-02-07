@@ -28,7 +28,7 @@ body {
   border: 1px solid red;
 } */
 
-.trying{
+.search{
     background:rgb(255, 187, 153);
     position: absolute;
     bottom: -145px;
@@ -39,24 +39,23 @@ body {
   
 }
 
-/* .col-md-2 input{
-border-radius: 5px;
+//  .col-md-2 input{
+// border-radius: 5px;
 
-}
-.trying label{
+// }
+.search label{
  font-size: 20px;
- font-weight: bold;
  margin-left: 65px;
 }
-.col-md-2 button ,.item3 button {
-background: #520529;
-color: #fff;
-border-radius: 15px;
-}
-  input, button, select, optgroup, textarea {
-       height: 38px;
-       border-radius: 5px;
-  } */
+// .col-md-2 button ,.item3 button {
+// background: #520529;
+// color: #fff;
+// border-radius: 15px;
+// }
+  // input, button, select, optgroup, textarea {
+  //      height: 38px;
+  //      border-radius: 5px;
+  // } 
 
 //testimonials
 
@@ -127,6 +126,76 @@ border-radius: 15px;
  .item3 input {
     background: #FF5722;
     border-radius: 15px;
-  } 
+  }
 
+  //  signin form starts here..
+
+  .container-fluid {
+    margin:0;
+    padding: 0 ;
+    background: url("../assets/login_bkg.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+  }
+  .loginbox {
+    padding-top: 5rem;
+    align-items: center;
+    margin-top: 5rem;
+
+  }
+  .loginbox button{
+    color: #fff;
+    width: 50%;
+    padding: 10px;
+    font-family: italic;
+    background: #3354e9;
+    text-align: center;
+    margin-left:8rem;
+    border-radius: 5px;
+  }
+  .signin {
+    width: 100%;
+    overflow: hidden;
+    font-size: 30px;
+    padding: 10px;
+    border-bottom: 1px solid #686661 ;
+    color: #ada479;
+    margin: 0 0 40px;
+  }
+
+  .signin input {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background:none !important;
+    text-align: center;
+    margin: 0 10px;
+    color: white;
+    text-decoration-color: #ffffff;
+  }
+  .signin:focus, input:focus{
+    outline: none;
+}
+  .signin::placeholder {
+    color: #ffffff;
+  }
+  .loginbox h1{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: italic;
+  }
+
+  // Registration form starts here
+
+  .register {
+    height: 900px;
+    width: 100%;
+    display: inline;
+  }
+  .form-inline{
+    display: inline-block;
+  }
   

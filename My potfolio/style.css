@@ -1,0 +1,406 @@
+body, html{
+	height: 100%;
+	margin: 0;
+	font-size: 16px;
+	font-family: "lato",sans-serf;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+
+}
+
+.pimg1, .pimg2, .pimg3{
+	position: relative;
+	opacity: o.70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+    
+    /*
+    fixed = parallax
+    scrool -normal
+    */
+	background-attachment: fixed;
+}
+
+.pimg1{
+	background-image: url(img/levi3.jpg);
+	min-height: 100%;
+	transition: all 1000ms;
+	filter: blur(7px);
+	}
+	.pimg1:hover{
+		filter: blur(0px);
+		-webkit-filter:blur(0px);
+	}	
+
+	.pimg2{
+	background-image: url(img/me.jpg);
+	min-height: 300px;
+    }
+    /* container grid */
+    .container {
+        max-width: 960p;
+        max-height: 400px;
+        margin: auto;
+        overflow: hidden;
+        padding: 2rem 1rem;
+    }
+    .grid-3 {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(3,1fr)
+    }
+    /* ends here */
+
+	.pimg3{
+	background-image: url(img/image3.jpeg);
+	min-height: 300px;
+	}
+
+	.section{
+		text-align: center;
+		padding: 50px 80px;
+		font-family: inherit;
+	}
+
+	section-light{
+		background-color: #f4f4f4;
+		color: #665;
+	}
+	.section-dark{
+		background-color: #351212;
+		color: #f3f3e2;
+	}
+
+	.section-dark h3{
+		font-size: 27px;
+	}
+
+	.ptext{
+		position: absolute;
+		top: 50%;
+		width: 100%;
+		text-align: center;
+		color: #000;
+		font-size: 27px;
+		letter-spacing: 8px;
+		text-transform: ;
+		font-family: inherit;
+
+	}
+
+	.ptext .border{
+		background-color:#6d6e6d;
+		color: #2e2d2d;
+		padding: 20px;
+		border-radius: 10px;
+	}
+
+	.ptext .border.trans{
+		background-color: transparent;
+	}
+	.ptext p{
+		background-color: transparent;
+		color: rgb(68, 67, 67);
+		padding: 20px;
+		font-family: inherit;
+		font-size: 27px;
+
+	}
+	#mywork {
+		font-family: inherit;
+		font-size: 15px;
+		padding: 20px;
+		margin: 20px;
+		display: inline-block;
+		border-bottom: 1px solid #e0e0e0;
+		align-items: center;
+	}
+	#mywork {
+		display: grid;
+		grid-gap: 3rem;
+		grid-template-columns: repeat(3,1fr);
+	}
+	.grid p{
+	    text-align: center;
+		padding: 10px;
+		font-size: 17px
+	}
+	.grid img {
+		width: 400px;
+		height: 350px;
+		box-shadow: 0 0 20px 0 rgba(72,94,116,0.9);
+
+	}
+	.grid button{
+	    background-color: #6d6e6d;
+        border: none;
+        padding: 20px;
+        text-align: center;
+        display: inline-block;
+	    margin: 4px 2px;
+	    align-items: center;
+	    border-radius: 10px;
+	
+	}
+	.grid button:hover{
+        background-color: #026902;
+	}
+	.grid a{
+	   text-decoration: none;
+	   font-size: 17px;
+	   font-weight: 100px;
+	   color: #fbfcfd;
+	}
+
+	/* About me */
+	.modal {
+		display: none;
+		position: fixed; 
+		z-index: 1;
+		padding-top: 100px; 
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%; 
+		overflow: auto;
+		background-color: rgb(0,0,0);
+		background-color: rgba(0,0,0,0.4);
+		
+	
+	}
+	
+	/* Modal Content */
+	.modal-content {
+		position: relative;
+		background-color: #411919;
+		margin: auto;
+		padding: 0;
+		border: 1px solid #888;
+		width: 80%;
+		height: 50%;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+		-webkit-animation-name: animatetop;
+		-webkit-animation-duration: 0.4s;
+		animation-name: animatetop;
+		animation-duration: 0.4s;
+		border-radius: 30%;
+	}
+	
+	#myBtn:hover{
+        background-color: #6d6e6d;
+	}
+	#myBtn {
+		padding: 20px;
+		font-size: 17px;
+		font-weight: 100;
+		background-color: #411919;
+		color: #abbdab;
+		width:100%;
+	}
+	
+	/* Add Animation */
+	@-webkit-keyframes animatetop {
+		from {top:-500px; opacity:0} 
+		to {top:0; opacity:1}
+	}
+	
+	@keyframes animatetop {
+		from {top:-300px; opacity:0}
+		to {top:0; opacity:1}
+	}
+	
+	/* The Close Button */
+	.close {
+		color: white;
+		float: right;
+		font-size: 28px;
+		font-weight: bold;
+	}
+	
+	.close:hover,
+	.close:focus {
+		color: #000;
+		text-decoration: none;
+		cursor: pointer;
+	}
+	.modal-body {
+		padding: 2px 16px;
+	
+	}
+	.modal-body p{
+		padding: 5rem;
+		line-height: 1.5;
+		width:80%;
+		margin-left: 3rem;
+		text-align: center;
+		display: inline-block;
+		font-size: 27px;
+	}
+	 .modal-header {
+		padding: 2px 16px;
+		background-color: transparent;
+		color: white;
+	}
+	
+	.modal-body {
+		padding: 2px 16px;
+	}
+/* 	
+	.modal-footer {
+		padding: 2px 16px;
+		background-color: #5cb85c;
+		color: white;
+	} */ */
+	
+
+	/* FORM STARTS */
+	*{
+		box-sizing: border-box;
+	} 
+	  
+	  
+	  /* .form2 {
+		  background: #92bde7;
+		  color: #485e74;
+		  line-height: 1,6;
+		  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		  padding: 1em;
+		  position: absolute;
+	  } */
+	  
+	  .container{
+		  max-width: 1170px;
+		  margin-left: auto;
+		  margin-right: auto;
+		  padding: 1em;
+		  height: 400px;
+	  
+	  }
+	  
+	  ul{
+		  list-style: none;
+		  padding: 0;
+	  }
+	  .brand{
+		  text-align: center;
+	  }
+	  .brand.span{
+		  color: #f8cccc;
+	  }
+	  
+	  .wrapper{
+		  box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+	  }
+	  
+	  .wrapper > *{
+		  padding: 1em;
+	  }
+	  
+	  .company-info{
+		  background: #723939;
+	  }
+	  
+	  .company-info h3, .company-info ul{
+		  text-align: center;
+		  margin: 0 0 1rem 0; 
+		  color: #5cb85c
+	  }
+	  
+	  .contact{
+		  background: #351212;
+	  }
+	  .contact label{
+		  color: #5cb85c;
+	  }
+ 
+	  /* FROM STYLE */
+	   .contact form{
+		  display: grid;
+		  grid-template-columns: 1fr 1fr;
+		  grid-gap: 20px;
+		  position: relative;
+		  bottom: 80px;
+	  }
+	  
+	  .contact form label{
+		  display: block;
+	  }
+	  
+	  .contact form p{
+		  margin: 0;
+	  }
+	  
+	  .contact form .full{
+		  grid-column: 1 / 3;
+	  }
+	  
+	  .contact form butto, .contact form input, .contact form textare{
+		  width: 90%;
+		  padding: 1em;
+	  }
+	  .contact form textarea {
+		  width: 95%;
+		  padding: 1em;
+	  }
+	  
+	  .contact form button{
+		  background: #c9ebff;
+		  border: 0;
+		  text-transform: uppercase;
+		  width: 99%;
+		  padding:1rem;
+	  }
+	  
+	  .contact form button:hover,.contact form button:focus{
+		   background: #92bde7;
+		   color: #fff;
+		   outline: 0;
+		   transition: background-color 2s ease-out;
+	  }
+	   
+	  
+	  /* large screen*/
+	  
+	  @media(min-width:700px){
+		  .wrapper{
+			  display: grid;
+			  grid-template-columns: 1fr 2fr;
+		  }
+		  
+		  .wrapper < *{
+			  padding: 2em;
+		  }
+	  
+		  .company-info h3, .company-info ul, .brand{
+			   text-align: left;
+		  }
+	  }
+	  
+    /* Footer */
+footer {
+    margin-top: 1rem;
+    background: #333;
+    color: #fff;
+    text-align: center;
+	padding: 1rem;
+}
+
+.icon i {
+	margin: 1rem;
+	display: inline-block;
+	padding bottom: 30px;
+   }
+
+   .icon i:hover {
+	   background: #979A9A;
+          color: #fff;
+          transition: 1s;
+   }
+@media(max-width: 568){
+	.pimg1, .pimg2, .pimg3{
+		background-attachment: scroll;
+	}
+}

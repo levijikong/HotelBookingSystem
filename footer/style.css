@@ -1,0 +1,41 @@
+#mainfooter {
+    max-width: 100%;
+}
+
+.container{
+    max-width: ;
+    background-color: #A98F9C;
+    text-decoration: none;
+
+    
+}
+
+.container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+}
+.container a {
+    text-decoration: none;
+    font-style: 1.1rem;
+    padding-top: 10px;
+    color: black;
+}
+.container ul {
+    list-style: none;
+}
+.container li {
+    padding: 10px;
+}
+.container h1 {
+    padding-left: 10px;
+
+}
+
+.item4 placeholder {
+    color: bisque;
+}
+.item1 {
+    margin-left: 3rem;
+}
+
